@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    background-color: #eeeeee;
+    margin-bottom: 1em;
+    height: 100%;
+}
+
+footer a img {
+    width: 30%;
+}

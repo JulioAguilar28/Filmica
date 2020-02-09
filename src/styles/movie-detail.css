@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.img {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.movie-detail-info {
+    padding: 1rem;
+}
+
+.container div .btn-group{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.container div .btn {
+    width: 25%;
+}

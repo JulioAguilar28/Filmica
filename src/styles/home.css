@@ -1,0 +1,24 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+}
+
+.home-container h2 {
+    font-size: 45px;
+}
+
+.home-container .carousel-home {
+    grid-row: 2;
+    width: 40%;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin: 1rem;
+}

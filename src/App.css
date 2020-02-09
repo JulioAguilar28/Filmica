@@ -1,0 +1,14 @@
+.App {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    background-color: #303841;
+}
+
+.content {
+    width: 80%;
+    background-color: #eeeeee;
+    margin: 0px auto;
+    min-height: 700px;
+}
