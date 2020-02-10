@@ -1,6 +1,7 @@
 .card {
     display: flex;
     flex-direction: row;
+    width: 12em;
 }
 
 .card-text {

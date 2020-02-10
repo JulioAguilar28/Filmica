@@ -14,7 +14,7 @@ export default function MovieContainer(props) {
     const urlImg = 'https://image.tmdb.org/t/p/original/'
 
     return (
-        <Card bg="danger" text="white" style={{ width: '15rem' }}>
+        <Card bg="danger" text="white">
             <Link style={Navstyles} to={`/peliculas/${props.movie.id}`}>
                 <Card.Img variant="bottom" src={urlImg + props.movie.poster_path} />
             </Link>

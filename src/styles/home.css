@@ -6,7 +6,8 @@
 }
 
 .home-container h2 {
-    font-size: 45px;
+    font-size: 5vh;
+    text-align: center;
 }
 
 .home-container .carousel-home {
@@ -21,4 +22,11 @@
     align-items: center;
     border-bottom: 1px solid #ccc;
     margin: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+    .home-container .carousel-home {
+        grid-row: 2;
+        width: 80%;
+    }
 }

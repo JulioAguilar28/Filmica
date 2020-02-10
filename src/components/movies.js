@@ -85,6 +85,7 @@ function Movies() {
 		<div className="movies-container">
 			<div className="movies-header">
 				<h2>Peliculas</h2>
+				<span></span>
 				<form className="form-inline my-2 my-lg-0" onSubmit={handleSubmit}>
 					<input className="form-control mr-sm-2" type="text" value={inputMovie} onChange={handleChange} placeholder="Search" />
 					<button className="btn btn-outline-danger my-2 my-sm-0" onSubmit={handleSubmit}>Buscar</button>

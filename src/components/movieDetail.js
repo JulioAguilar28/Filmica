@@ -80,9 +80,7 @@ export default function MovieDetail({ match }) {
                             </p>
                             <Button href={`https://www.youtube.com/watch?v=${trailer.map(key => (key.key))}`} target="_blank" className="ml-4 mb-4" variant="danger">Ver Trailer...</Button>
                             <ButtonGroup>
-                                <Button onClick={() => { saveMovieLiked(movie) }} className="py-2 ml-4" variant="danger"><i class="far fa-thumbs-up"></i> Me gusta</Button>
-                                <Button className="py-2 ml-4" variant="danger"><i class="far fa-thumbs-down"></i> No me gusta</Button>
-                            </ButtonGroup>
+                                <Button onClick={() => { saveMovieLiked(movie) }} className="py-2 ml-4" variant="danger"><i className="far fa-thumbs-up"></i> Me gusta</Button>                            </ButtonGroup>
                         </div>
                     </Container>
                 </Jumbotron>

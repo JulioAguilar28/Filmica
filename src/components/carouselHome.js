@@ -13,7 +13,7 @@ export default function CarouselHome(props) {
             {movies.map(movie => (
                 <Carousel.Item key={movie.id}>
                     <img
-                        className="d-block img-fluid"
+                        className="img-fluid"
                         src={urlImg + movie.poster_path}
                         alt={movie.title}
                     />
