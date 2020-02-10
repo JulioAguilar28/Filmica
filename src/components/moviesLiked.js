@@ -16,7 +16,7 @@ const MoviesLiked = () => {
     return (
         <div className="movies-liked">
             {movies.map(movie => (
-                <MovieContainer movie={movie} />
+                <MovieContainer movie={movie} key={movie.id} />
             ))}
         </div>
     )
